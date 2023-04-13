@@ -131,7 +131,7 @@ function App() {
               setResultText("XLRE Avg. ESG score (1055) is less than XLU Avg. ESG score (1197)");
               break;
             case "ESGU":
-              setResultText("XLRE Avg. ESG score (1055) is way higher than SP ESG Avg. ESG score (114)");
+              setResultText("XLRE Avg. ESG score (1055) is way higher than ESGU Avg. ESG score (114)");
               break;
             default:
               setResultText("");
@@ -144,7 +144,7 @@ function App() {
               setResultText("XLU Avg. ESG score (1197) is more than XLU Avg. ESG score (1055)");
               break;
             case "ESGU":
-              setResultText("XLU Avg. ESG score (1197) is way higher than SP ESG Avg. ESG score (114)");
+              setResultText("XLU Avg. ESG score (1197) is way higher than ESGU Avg. ESG score (114)");
               break;
             default:
               setResultText("");
@@ -154,10 +154,10 @@ function App() {
         case "ESGU":
           switch (selectedOption2) {
             case "XLRE":
-              setResultText("SP ESG Avg. ESG score (114) is way less than XLRE Avg. ESG score (1055)");
+              setResultText("ESGU Avg. ESG score (114) is way less than XLRE Avg. ESG score (1055)");
               break;
             case "XLU":
-              setResultText("SP ESG Avg. ESG score (114) is way less than XLU Avg. ESG score (1197)");
+              setResultText("ESGU Avg. ESG score (114) is way less than XLU Avg. ESG score (1197)");
               break;
             default:
               setResultText("");
